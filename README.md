@@ -1,1 +1,5 @@
-# volar-issue-project-references
+npm install
+
+npm run build:ts
+
+npm run build:vue
