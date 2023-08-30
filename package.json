@@ -1,0 +1,15 @@
+{
+  "name": "vue-project-references",
+  "version": "1.0.0",
+  "scripts": {
+    "build:vue": "vue-tsc --build tsconfig.vue.json",
+    "build:ts": "vue-tsc --build tsconfig.ts.json"
+  },
+  "author": "Vincent Dallaire <vincent.dallaire@dti.ulaval.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.1.6",
+    "vue": "^2.7.14",
+    "vue-tsc": "^1.8.8"
+  }
+}

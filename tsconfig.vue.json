@@ -1,0 +1,12 @@
+{
+    "include": [],
+    "files": [],
+    "references": [
+        {
+            "path": "./vue/tsconfig.src.json"
+        },
+        {
+            "path": "./vue/tsconfig.unit.json"
+        }
+    ]
+}
