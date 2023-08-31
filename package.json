@@ -1,9 +1,9 @@
 {
-  "name": "vue-project-references",
+  "name": "volar-issue-project-references",
   "version": "1.0.0",
   "scripts": {
-    "build:vue": "vue-tsc --build tsconfig.vue.json",
-    "build:ts": "vue-tsc --build tsconfig.ts.json"
+    "build:ts": "vue-tsc --build tsconfig.ts.json",
+    "build:vue": "vue-tsc --build tsconfig.vue.json"
   },
   "author": "Vincent Dallaire <vincent.dallaire@dti.ulaval.ca>",
   "license": "MIT",
