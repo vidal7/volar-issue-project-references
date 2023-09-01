@@ -2,12 +2,13 @@
   "name": "volar-issue-project-references",
   "version": "1.0.0",
   "scripts": {
-    "build:performant": "tsc --build tsconfig.performant.json",
-    "build:non-performant": "tsc --build tsconfig.non-performant.json"
+    "build:performant": "rimraf out-performant && tsc --build tsconfig.performant.json --extendedDiagnostics",
+    "build:non-performant": "rimraf non-performant && tsc --build tsconfig.non-performant.json --extendedDiagnostics"
   },
   "author": "Vincent Dallaire <vincent.dallaire@dti.ulaval.ca>",
   "license": "MIT",
   "dependencies": {
+    "rimraf": "^5.0.1",
     "typescript": "^5.1.6"
   },
   "type": "module"
