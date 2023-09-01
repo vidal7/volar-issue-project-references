@@ -7,12 +7,6 @@
         },
         {
             "path": "./performant/tsconfig.unit.json"
-        },
-        {
-            "path": "./non-performant/tsconfig.src.json"
-        },
-        {
-            "path": "./non-performant/tsconfig.unit.json"
-        },
+        }
     ]
 }

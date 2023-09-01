@@ -1,9 +1,12 @@
 {
     "extends": "../tsconfig.base.json",
     "include": [
-        "main.vue"
+        "*.ts"
+    ],
+    "exclude": [
+        "*.unit.ts"
     ],
     "compilerOptions": {
-        "outDir": "../vue-out"
+        "outDir": "../out-performant"
     }
 }

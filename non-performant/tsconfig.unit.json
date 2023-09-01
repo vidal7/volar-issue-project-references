@@ -1,10 +1,10 @@
 {
     "extends": "../tsconfig.base.json",
     "include": [
-        "main.unit.ts"
+        "*.unit.ts"
     ],
     "compilerOptions": {
-        "outDir": "../ts-out"
+        "outDir": "../out-non-performant"
     },
     "references": [
         {"path": "./tsconfig.src.json"}

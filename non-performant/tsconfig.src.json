@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.base.json",
+    "include": [
+        "*.ts"
+    ],
+    "exclude": [
+        "*.unit.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "../out-non-performant"
+    }
+}

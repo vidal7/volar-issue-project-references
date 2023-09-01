@@ -1,5 +1,5 @@
 npm install
 
-npm run build:ts => works
+npm run build:performant => Performant!
 
-npm run build:vue => doesn't work
+npm run build:non-performant => Not performant!
