@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build:performant": "rimraf out-performant && tsc --build tsconfig.performant.json --extendedDiagnostics",
-    "build:non-performant": "rimraf out-non-performant && tsc --build tsconfig.non-performant.json --extendedDiagnostics"
+    "build:non-performant": "rimraf out-non-performant && tsc --build tsconfig.non-performant.json --extendedDiagnostics",
+    "build:all": "npm run build:performant && npm run build:non-performant"
   },
   "author": "Vincent Dallaire <vincent.dallaire@dti.ulaval.ca>",
   "license": "MIT",
