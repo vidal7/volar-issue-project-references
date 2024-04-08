@@ -5,6 +5,7 @@
             "DOM"
         ],
         "composite": true,
-        "emitDeclarationOnly": true
+        "emitDeclarationOnly": true,
+        "skipLibCheck": true
     }
 }
